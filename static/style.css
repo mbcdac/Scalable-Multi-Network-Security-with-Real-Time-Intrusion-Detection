@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.jconfirm-content {
+    font-size: 16px;
+}

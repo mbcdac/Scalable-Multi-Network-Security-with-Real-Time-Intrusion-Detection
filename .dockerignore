@@ -1,0 +1,9 @@
+# Exclude virtual environment
+quizvenv/
+*.pyc
+__pycache__/
+# Exclude Docker-related files (optional)
+.dockerignore
+Dockerfile
+#Exclude git
+.git
