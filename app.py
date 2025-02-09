@@ -1,4 +1,4 @@
-# Import necessary modules
+# Importt necessary modules
 from flask import Flask, render_template, request, redirect, url_for, session, g
 import pymysql
 import hashlib
