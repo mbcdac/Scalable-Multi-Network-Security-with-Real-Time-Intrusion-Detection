@@ -1,4 +1,4 @@
-# Importt necessaryy moduless
+# Import necessaryy moduless
 from flask import Flask, render_template, request, redirect, url_for, session, g
 import pymysql
 import hashlib
@@ -172,4 +172,8 @@ def calculate_score(user_answers):
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(ssl_context=('/etc/docker/certs/quiz-pem_chain.pem', '/etc/docker/certs/project-prvkey.pem'),debug=True, host='0.0.0.0', port=443)
+    #app.run(debug=True, host='0.0.0.0', port=5000)
+
+
+

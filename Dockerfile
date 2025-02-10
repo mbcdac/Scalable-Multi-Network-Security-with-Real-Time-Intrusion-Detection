@@ -24,7 +24,7 @@ ENV MYSQL_DATABASE=quiz_app
 # Replace with your database name
 
 # Expose the port the app runs on (usually 5000 for Flask)
-EXPOSE 5000
+EXPOSE 443
 
 # Define the command to run the application (using Flask's built-in development server)
 CMD ["python", "app.py"]
