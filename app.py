@@ -172,7 +172,7 @@ def calculate_score(user_answers):
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(ssl_context=('/etc/docker/certs/quiz-pem_chain.pem', '/etc/docker/certs/project-prvkey.pem'),debug=True, host='0.0.0.0', port=443)
+    app.run(ssl_context=('/etc/docker/certs/quiz-pem_chain.pem', '/etc/docker/certs/project-prvkey.pem'), host='0.0.0.0', port=443)
     #app.run(debug=True, host='0.0.0.0', port=5000)
 
 
